@@ -1,11 +1,15 @@
 # Upcoming Release 0.19.6
 
 ## Major features and improvements
+* It is now possible to use Kedro without having `rich` installed.
 
 ## Bug fixes and other changes
 * User defined catch-all dataset factory patterns now override the default pattern provided by the runner.
 
 ## Breaking changes to the API
+
+## Upcoming deprecations for Kedro 0.20.0
+* All micro-packaging commands (`kedro micropkg pull`, `kedro micropkg package`) are deprecated and will be removed in Kedro 0.20.0.
 
 ## Documentation changes
 * Improved documentation for custom starters
